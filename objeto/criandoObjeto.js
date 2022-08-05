@@ -34,3 +34,8 @@ function criarFuncionario(nome, salarioBase, faltas){
 const f1 = criarFuncionario ('João', 7890, 4)
 const f2 = criarFuncionario ('Maria',11400, 1)
 console.log(f1.getSalario(), f2.getSalario())   
+
+//object.create
+const filha = object.create(null)
+filha.nome = 'Ana'
+console.log(filha)
